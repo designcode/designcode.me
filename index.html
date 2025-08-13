@@ -16,8 +16,8 @@
             <div class="row">
                 <div class="content col-xs-12 col-sm-6 col-md-8">
                     <div class="info">
-                        <span class="bg-1">Taken at <a href="https://www.instagram.com/p/9GTIjxRC9a/?taken-by=designcode">Finland</a></span>
-                        <span class="bg-2">Taken at <a href="https://www.instagram.com/p/_1c9F1xC_1/?taken-by=designcode">Mount Teide</a></span>
+                        <span class="bg-1">Taken at <a href="https://www.instagram.com/p/9GTIjxRC9a/?taken-by=designcode">Norway/Finland Border</a></span>
+                        <span class="bg-2">Taken at <a href="https://www.instagram.com/p/_1c9F1xC_1/?taken-by=designcode">Teide National Park</a></span>
                         <span class="bg-3">Taken at <a href="https://www.instagram.com/p/BROUMoljroP/?taken-by=designcode">Rocks of Belogradchik</a></span>
                     </div>
                 </div>
@@ -43,15 +43,12 @@
         </div>
         
         <script type="text/javascript">
-            var max = 4,
+            var max = 3,
                 num = Math.round(Math.random() * (max - 1) + 1),
                 bg = 'bg-'+num;
-            if(num !== 4) {
-                document.querySelector('.content').style.backgroundImage = 'url("'+bg+'.jpg")';
-                document.querySelector('span.'+bg).style.display = 'block';
-            } else {
-                document.querySelector('.content').innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/aitmwPYanEs?rel=0?version=3&autoplay=1&controls=0&&showinfo=0&loop=1​" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-            }
+        
+            document.querySelector('.content').style.backgroundImage = 'url("'+bg+'.jpg")';
+            document.querySelector('span.'+bg).style.display = 'block';
         </script>
     </body>
 </html>
