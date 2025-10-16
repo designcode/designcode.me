@@ -98,3 +98,11 @@ h1 {
 .donate-sidebar {
   border: none;
 }
+
+@media (max-width: 767px) {
+  .donate-sidebar {
+    position: relative;
+    top: 0;
+    height: 100%;
+  }
+}
