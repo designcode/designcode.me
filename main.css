@@ -2,7 +2,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 html,
 body {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 16px;
   height: 100%;
   overflow: hidden;
@@ -93,4 +93,8 @@ h1 {
   .sidebar .inner {
     padding: 10px 10px;
   }
+}
+
+.donate-sidebar {
+  border: none;
 }
